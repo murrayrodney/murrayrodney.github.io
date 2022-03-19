@@ -1,4 +1,5 @@
-baseURL: "https://murrayrodney.github.io"
+# baseURL: "https://murrayrodney.github.io"
+baseURL: "https://murrayrodney.github.io/Personal-Site/"
 languageCode: "en-us"
 title: "Rodney L. Murray"
 theme: "toha"
