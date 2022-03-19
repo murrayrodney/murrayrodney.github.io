@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: ConocoPhillips.
+      url: "https://www.conocophillips.com.com"
+      location: Anchorage, Alaska
+      overview: Alaska's largest oil and gas operator
+    positions:
+      - designation: Data Analytics Engineer
+        start: Jun 2020
+        # end: Dec 2020
+        responsibilities:
+          - Frame and develop a deep learning model for production forecasting
+          - Utilize analytical reservoir models and reinforcement learning to optimize production and injection
+          - Apply statistical methods to uncertainty in well test metering to quantify value of reducing metering error
+          - Forecast failures of injection wells through the use of survival analysis techniques
+      - designation: Voidage Management Coordinator
+        start: Jan 2019
+        end: Jun 2020
+        responsibilities:
+          - Optimize fieldwide production and injection systems for the Greater Kuparuk Area (GKA) to optimize recover with waterflooding and Enhanced Oil Recovery (EOR) processes
+          - Develop a novel integrated production and injection network which utilized machine learning methods in place of multiphase hydraulics correlations and genetic algorithms for optimization of well settings
+          - Provide input on pattern maturity and field constraints to development teams for infill drilling decisions
+      - designation: Reservoir Engineer
+        start: Oct 2016
+        end: Dec 2018
+        responsibilities:
+          - Work with base production and development teams to optimize recovery for existing and infill wells in the Central Production Facility 3 (CPF3) area of GKA
+          - Begin development of an integrated production and injection network for GKA
+          - Forecast production for reserves analysis
+      - designation: Drillsite Petroleum Engineer
+        start: July 2014
+        end: Oct 2016
+        responsibilities:
+          - Oversee production and injection activities for >100 wells over 5 drillsites in GKA
+          - Utilize reservoir simulation to help provide estimates for fieldwide injection impacts
+          - Analyzed type pattern and full field reservoir model resutls to optimize selection of current and future EOR targets

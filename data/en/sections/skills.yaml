@@ -1,0 +1,16 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+  - name: Python
+    summary: Use of Python for scientific computing and data science workflows
+
+  - name: Statistics
+    summary: Application of statistics in the engineering domain to uncover important relationships and inform decisions
+
+  - name: Reservoir Engineering
+    summary: Expertise in optimization of existing production and injection patterns as a part of complex integrated surface networks

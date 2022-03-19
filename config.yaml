@@ -1,3 +1,45 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "https://murrayrodney.github.io/Personal-Site/"
+languageCode: "en-us"
+title: "Rodney L. Murray"
+theme: "toha"
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+params:
+  # gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  # gitBranch: master
+  enableBlogPost: true
+
+  # Change background images
+  background: "/images/DSC_4919-2.jpg"
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration.
+  # This feature has been implemented for Mailchimp only for now.
+  # You can also hide it from the footer.
+  # newsletter:
+  # specify whether you want to display the newsletter form
+  # enable: true
+  # specify which newsletter provider you want to use
+  # provider: mailchimp
+  # specify the target URL for the subscription form
+  # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e

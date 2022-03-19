@@ -1,0 +1,15 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+designation: Engineer/Data Scientist
+
+summary: I am a data scientist who started off as a petroleum engineer in Alaska after graduating from the University of Wyoming with a degree in Chemical Engineering. After working as an engineer for several years I discovered my love for working with data problems which lead me to a data science based role (Data Analytics Engineer in our company). After several months of working in that position and recognizing an opportunity to build a better foundation in statistics I began the Master of Applied Statistics program from Colorado State University.
+
+socialLinks:
+  - name: GitHub
+    icon: "fab fa-github"
+    url: https://github.com/murrayrodney
