@@ -9,8 +9,17 @@ skills:
   - name: Python
     summary: Use of Python for scientific computing and data science workflows
 
+  - name: R
+    summary: Use of R for statistical analysis and data exploration
+
   - name: Statistics
     summary: Application of statistics in the engineering domain to uncover important relationships and inform decisions
 
+  - name: Machine learning
+    summary: Implementation of machine learning algorithms to make better and faster predictions with an emphasis in integration of physics based processes
+
   - name: Reservoir Engineering
     summary: Expertise in optimization of existing production and injection patterns as a part of complex integrated surface networks
+
+  - name: Production Engineering
+    summary: Optimization of producing and injecting wells with a focus on complex integrated surface networks
