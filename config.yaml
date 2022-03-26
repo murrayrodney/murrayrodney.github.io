@@ -36,6 +36,12 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
+  features:
+    analytics:
+      enabled: true
+      goatCounter:
+        code: rmurray7
+
   # Provide newsletter configuration.
   # This feature has been implemented for Mailchimp only for now.
   # You can also hide it from the footer.
