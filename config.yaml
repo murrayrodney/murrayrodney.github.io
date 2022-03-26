@@ -23,6 +23,8 @@ outputs:
 
 enableEmoji: true
 
+math: true
+
 params:
   gitRepo: https://github.com/murrayrodney/Personal-Site
   gitBranch: source
