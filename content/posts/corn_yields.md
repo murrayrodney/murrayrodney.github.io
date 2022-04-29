@@ -124,12 +124,14 @@ As suspected, it looks like we do have some pretty serious auto-correlation issu
 For the linear regression model above we assumed that \\(\epsilon \sim N(0, \sigma^2) \\), although in reality we have been working with a [multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution) where \\(\epsilon \sim N(0, \sigma^2 I) \\) where \\(I\\) is the identity matrix. Writing it in this way and examining the covariance matrix \\(\sigma^2I \\) makes it pretty easy to see the two assumptions (constant variance and no correlation). Below is a an example of what the matrix would look like:
 
 $$
-\begin{bmatrix} sigma^2 & 0  & \ldots & 0 \\
+\begin{bmatrix} 
+sigma^2 & 0  & \ldots & 0 \\
 0 & \sigma^2  & \ldots & 0 \\
 \vdots & \vdots & \vdots & \vdots \\
 0 & 0 & 0 & \sigma^2
 \end{bmatrix}
 $$
+
 However in generalized least squares (GLS), we can use any structure for the covariance matrix, so we can write \\(\epsilon \sim N(0, \Sigma) \\) where \\(\Sigma \\) is the covariance matrix. In practice this gives us far more parameters than we have observations (if we have n observations then \\(\Sigma \\) is an n x n matrix) if there is no structure specified, so it is very helpful to assume some structure for the covariance matrix. For a problem such as this we will assume that the residuals follow an *autoregressive process of order 1* (as supported in the ACF plots above). In other words the residuals for a group is correlated with the previously sampled residual (assuming our sampling occurs on an regular basis, yearly in this case) from that group. Now our covariance matrix will look more like this:
 					
 $$
@@ -140,7 +142,8 @@ $$
 \rho^n \sigma^2 & \rho^{n-1} \sigma^2 & \rho ^{n-2}\sigma^2 & \ldots & \sigma^2 \\
 \end{bmatrix}
 $$
-Where $(|\rho| < 1)$.
+
+Where \\(|\rho| < 1\\).
 
 In R this is easy to do with the `gls()` function from the `nlme` library, and we can specify the covariance structure with the model `corAR1()` also from the `nlme` library. Below is the resulting predicted vs. measured value plot as well as the standardized residuals vs. fitted values.
 
