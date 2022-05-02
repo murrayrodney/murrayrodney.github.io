@@ -125,9 +125,9 @@ For the linear regression model above we assumed that \\(\epsilon \sim N(0, \sig
 
 $$
 \begin{bmatrix} 
-\ \sigma^2 & 0  & \ldots & 0 \\\\
-\ 0 & \sigma^2  & \ldots & 0 \\\\
-\ \vdots & \vdots & \vdots & \vdots \\\\
+\sigma^2 & 0  & \ldots & 0 \\\
+0 & \sigma^2  & \ldots & 0 \\\
+\vdots & \vdots & \vdots & \vdots \\\
 0 & 0 & 0 & \sigma^2
 \end{bmatrix}
 $$
@@ -136,10 +136,10 @@ However in generalized least squares (GLS), we can use any structure for the cov
 
 $$
 \begin{bmatrix}
-\ \sigma^2 & \rho \sigma^2 & \rho^2\sigma^2 & \ldots & \rho^n \sigma^2 \\\\
-\ \rho\sigma^2 & \sigma^2 & \rho\sigma^2 & \ldots & \rho^{n-1} \sigma^2 \\\\
-\ \vdots & \vdots & \vdots & \vdots & \vdots \\\\
-\ \rho^n \sigma^2 & \rho^{n-1} \sigma^2 & \rho ^{n-2}\sigma^2 & \ldots & \sigma^2 \\\\
+\sigma^2 & \rho \sigma^2 & \rho^2\sigma^2 & \ldots & \rho^n \sigma^2 \\\
+\rho\sigma^2 & \sigma^2 & \rho\sigma^2 & \ldots & \rho^{n-1} \sigma^2 \\\
+\vdots & \vdots & \vdots & \vdots & \vdots \\\
+\rho^n \sigma^2 & \rho^{n-1} \sigma^2 & \rho ^{n-2}\sigma^2 & \ldots & \sigma^2 \\\
 \end{bmatrix}
 $$
 
