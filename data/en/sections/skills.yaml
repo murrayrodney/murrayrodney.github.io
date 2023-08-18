@@ -7,19 +7,28 @@ section:
 
 skills:
   - name: Python
-    summary: Use of Python for scientific computing and data science workflows
+    summary: Use of Python for scientific computing, machine learning, and data science workflows. Familiar with libraries such as Numpy, Pandas, Keras/Tensorfow, PyMC, Scikit-learn.
 
   - name: R
-    summary: Use of R for statistical analysis and data exploration
+    summary: Use of R for statistical modeling and analysis of experiments. Familiar with the Tidyverse, survival modeling, and mixed modeling libraries.
+
+  - name: SQL
+    summary: Commonly used in my work to query and summarize large datasets.
 
   - name: Statistics
-    summary: Application of statistics in the engineering domain to uncover important relationships and inform decisions
+    summary: Application of statistics in the engineering domain to uncover important relationships and inform decisions. Significant utilization of both tradtional (frequentist) and Bayesian methods for modeling and analysis.
 
   - name: Machine learning
-    summary: Implementation of machine learning algorithms to make better and faster predictions with an emphasis in integration of physics based processes
+    summary: Implementation of machine learning algorithms to make better and faster predictions with an emphasis in integration of physics based processes.
+
+  - name: Reinforcement Learning
+    summary: Leveraged for waterflood optimization with custom built environments.
+
+  - name: AWS
+    summary: Use AWS services to integrate new data sources into datalakes and make available to other engineers.
 
   - name: Reservoir Engineering
-    summary: Expertise in optimization of existing production and injection patterns as a part of complex integrated surface networks
+    summary: Expertise in optimization of existing production and injection patterns as a part of complex integrated surface networks and extremely faulted reservoirs.
 
   - name: Production Engineering
-    summary: Optimization of producing and injecting wells with a focus on complex integrated surface networks
+    summary: Optimization of producing and injecting wells with a focus on complex integrated surface networks.

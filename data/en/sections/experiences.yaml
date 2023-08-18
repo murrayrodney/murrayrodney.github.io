@@ -13,17 +13,18 @@ experiences:
   - company:
       name: ConocoPhillips
       url: "https://www.conocophillips.com.com"
-      location: Anchorage, Alaska
+      location: Ancorage, AK
       overview: An independent oil and gas operator
     positions:
-      - designation: Data Analytics Engineer
+      - designation: Senior Data Scientist (remote)
         start: Jun 2020
         responsibilities:
           - Frame and develop a deep learning model for production forecasting
+          - Utilize Bayesian Heirarchical models to estimate potential changes due to meter calibration and prioritize field technician resources
           - Utilize analytical reservoir models and reinforcement learning to optimize production and injection
           - Apply statistical methods to uncertainty in well test metering to quantify value of reducing metering error
           - Forecast failures of injection wells through the use of survival analysis techniques
-      - designation: Voidage Management Coordinator
+      - designation: Voidage Management Coordinator (Reservoir Engineer)
         start: Jan 2019
         end: Jun 2020
         responsibilities:
